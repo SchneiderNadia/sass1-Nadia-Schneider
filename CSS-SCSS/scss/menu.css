@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  background-color: rgb(174, 93, 250);
+  margin: 0;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+  font-size: larger;
+}
+.menu li {
+  background-color: rgb(174, 93, 250);
+}
+.menu li:hover {
+  background-color: fuchsia;
+}/*# sourceMappingURL=menu.css.map */

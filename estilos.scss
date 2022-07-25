@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import "CSS-SCSS/scss/menu.scss/";
+@import "CSS-SCSS/scss/Footer.scss";
+@import "CSS-SCSS/scss/Header.scss";
+
+$color-estandar: rgb(174, 93, 250);
+$texto-general: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: $texto-general;
+    background-color:  rgb(191, 158, 221);
+}
+aside{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: publicidad;
+}
+.imagen-principal{
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;
+    background-repeat: no-repeat;
+}
+.cuadro__violeta{
+    height: 95%;
+    border: solid 10px rgb(168, 131, 182);
+    background-color: blueviolet;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: $texto-general;
+    color:aliceblue;
+}
